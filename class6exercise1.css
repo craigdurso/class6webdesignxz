@@ -1,16 +1,39 @@
-.Login{background-color:hotpink;
-float:left;
-height:300px;
-width:40%;
+.wrapper{
+width:1000px;
+margin: 0 auto;
+background-color: lightgrey;
 }
 
-.Requirements{background-color:green;
+
+.Left-column{background-color:hotpink;
 float:left;
 height:300px;
-width:60%;
+width:50%;
+padding: 30px;
+box-sizing: border-box;
 }
 
-.footer{background-color: blue;
-width: 100px;
+.Right-column{background-color:green;
+float:left;
+height:300px;
+width:50%;
+padding: 30px;
+box-sizing: border-box;
+}
+
+.footer{background-color:blue;
+width: 100%;
 height:100px;
- }
+clear:both;
+}
+
+form{width:100%;
+padding: 15px;
+background-color: grey;
+box-sizing: border-box;
+}
+
+input[type="submit", input="type"]
+{
+width:100%;
+box-sizing: border-box;}
