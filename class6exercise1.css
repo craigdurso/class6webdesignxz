@@ -33,7 +33,11 @@ background-color: grey;
 box-sizing: border-box;
 }
 
-input[type="submit", input="type"]
+input[type="email"],input[input="password"]
 {
 width:100%;
 box-sizing: border-box;}
+
+img{width: 100%;
+height: 100px;
+}
